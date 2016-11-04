@@ -1,8 +1,8 @@
 <?php
 
-define('@dedaunBot', '289305070:AAEvQAIZls8apqeiF2oOG3zSnrowV5xF5wU
+define('@dedaunBot', '289305070:AAHSessk1SlAJm4qtCKxw1pM1rANue-E7p4
 ');
-define('API_URL', 'https://api.telegram.org/bot289305070:AAEvQAIZls8apqeiF2oOG3zSnrowV5xF5wU/mulakan'.@dedaunBot.'/');
+define('API_URL', 'https://api.telegram.org/bot289305070:AAHSessk1SlAJm4qtCKxw1pM1rANue-E7p4/mulakan'.@dedaunBot.'/');
 
 function apiRequestWebhook($method, $parameters) {
   if (!is_string($method)) {
